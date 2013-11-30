@@ -106,6 +106,12 @@
             android:defaultValue="false"
             android:title="@string/account_settings_vibrate_when_label" />
 
+        <CheckBoxPreference
+            android:key="notification-notify-every-message"
+            android:dependency="notifications-enabled"
+            android:defaultValue="false"
+            android:title="@string/account_settings_notify_every_message_label" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

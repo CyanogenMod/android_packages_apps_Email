@@ -161,6 +161,7 @@ public class EmailPreferenceMigrator extends BasePreferenceMigrator {
                         & com.android.emailcommon.provider.Account.FLAGS_VIBRATE) != 0;
                 folderPreferences.setNotificationVibrateEnabled(vibrate);
 
+                folderPreferences.setEveryMessageNotificationEnabled(true);
                 folderPreferences.commit();
             }
         }
