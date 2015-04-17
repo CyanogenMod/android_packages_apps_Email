@@ -374,7 +374,9 @@ public class MailboxSettings extends PreferenceActivity {
             Folder tmp = folder;
             while (tmp != null && tmp.parent != null && !tmp.parent.toString().isEmpty()) {
                 tmp = folders.get(tmp.parent);
-                name = tmp.name + "/" + name;
+                if (tmp != null) {
+                    name = tmp.name + "/" + name;
+                }
             }
             return name;
         }
