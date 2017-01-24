@@ -644,6 +644,9 @@
     <!-- On Settings screen, section heading -->
     <string name="account_settings_servers">Server settings</string>
 
+    <!-- On Settings screen, notify on every message pop-up menu label -->
+    <string name="account_settings_notify_every_message_label">Notify for every message</string>
+
     <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
     <string name="mailbox_settings_activity_title">Sync options</string>
     <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
